@@ -44,3 +44,4 @@ Route::get('/posts/{post}/comments/{comment}', function ($postId, $commentId) {
 Route::get('/articles/{id}', function ($id) {
     return 'Halaman Artikel dengan ID ' . $id;
 });
+
