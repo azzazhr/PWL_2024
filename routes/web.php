@@ -75,3 +75,7 @@ return view('hello', ['name' => 'Azza']);
 Route::get('/greeting', function () {
 return view('blog.hello', ['name' => 'Azza']);
 });
+
+Route::get('/greeting', [WelcomeController::class,
+'greeting']);
+
